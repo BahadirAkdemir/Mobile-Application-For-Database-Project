@@ -4,7 +4,6 @@ import 'login.dart';
 import 'databaseHelper.dart';
 
 Future<void> main() async {
-
   WidgetsFlutterBinding.ensureInitialized();
 
   runApp(MaterialApp(
@@ -15,7 +14,3 @@ Future<void> main() async {
     debugShowCheckedModeBanner: false,
   ));
 }
-
-
-
-
